@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<title>Carrusel</title>
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<!-- micss -->
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="container head">
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+		<div class="carousel-tooltip">
+			<div class="caraousel-tooltip-item active" data-index="0">
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="bottom">
+					<span class="fa fa-heart"></span>
+				</a>
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="bottom">
+					<span class="fa fa-star"></span>
+				</a>
+			</div>
+			<div class="caraousel-tooltip-item" data-index="1">
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="top">
+					<span class="fa fa-plus"></span>
+				</a>
+			</div>
+			<div class="caraousel-tooltip-item" data-index="2">
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="bottom">
+					<span class="fa fa-plus"></span>
+				</a>
+			</div>
+			<div class="caraousel-tooltip-item" data-index="3">
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="right">
+					<span class="fa fa-plus"></span>
+			</a>
+			</div>
+			<div class="caraousel-tooltip-item" data-index="4">
+				<a href="#" class="tooltip-carousel" data-container="body" data-toggle="popover" data-placement="bottom">
+					<span class="fa fa-plus"></span>
+				</a>
+			</div>
+		</div>
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+			<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="assets/img/danielJ-1.jpg" alt="daniel1">
+				<div class="carousel-caption">
+					<h3>Daniel Johnston</h3> primera ilustracion
+			</div>
+			</div>
+			<div class="item">
+				<img src="assets/img/danielJ-2.jpg" alt="daniel2">
+					<div class="carousel-caption">
+					<h3>Daniel Johnston</h3> la imagen mas clásica
+			</div>
+			</div>
+			<div class="item">
+				<img src="assets/img/danielJ-3.jpg" alt=".daniel3">
+				<div class="carousel-caption">
+					<h3>Daniel Johnston</h3> tercera imagen
+				</div>
+			</div>
+			<div class="item">
+				<img src="assets/img/danielJ-4.jpg" alt="daniel4">
+				<div class="carousel-caption">
+					<h3>Daniel Johnston</h3> cuarta imagen
+				</div>
+			</div>
+			<div class="item">
+				<img src="assets/img/danielJ-5.jpg" alt="daniel5">
+				<div class="carousel-caption">
+					<h3>Daniel Johnston</h3> quinta imagen
+			</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+		</a>
+	</div>
+</div>
+
+	<!-- jquery-libreria -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!-- mi jquery -->
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
